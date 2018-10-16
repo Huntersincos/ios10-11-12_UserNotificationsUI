@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UserNotifications.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    [[UserNotifications shareIninstance]requestAuthorization];
     return YES;
 }
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

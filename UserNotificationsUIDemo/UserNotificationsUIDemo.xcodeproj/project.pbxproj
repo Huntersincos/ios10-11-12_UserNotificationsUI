@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E05BE0E2175BE1300D4713A /* voicetiaozhuan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E05BE0D2175BE1300D4713A /* voicetiaozhuan.mp3 */; };
+		6E05BE1A2175E28E00D4713A /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E05BE192175E28E00D4713A /* 1.jpeg */; };
 		6E4B71462175813F00464C2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B71452175813F00464C2D /* AppDelegate.m */; };
 		6E4B71492175813F00464C2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B71482175813F00464C2D /* ViewController.m */; };
 		6E4B714C2175814000464C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B714A2175814000464C2D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		6E4B71542175814000464C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B71532175814000464C2D /* main.m */; };
 		6E4B715E2175814000464C2D /* UserNotificationsUIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B715D2175814000464C2D /* UserNotificationsUIDemoTests.m */; };
 		6E4B71692175814000464C2D /* UserNotificationsUIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B71682175814000464C2D /* UserNotificationsUIDemoUITests.m */; };
+		6E4B717921758C5700464C2D /* UserNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B717821758C5700464C2D /* UserNotifications.m */; };
+		6E4B717B2175BD9A00464C2D /* moive.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B717A2175BD9A00464C2D /* moive.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E05BE0D2175BE1300D4713A /* voicetiaozhuan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voicetiaozhuan.mp3; sourceTree = "<group>"; };
+		6E05BE192175E28E00D4713A /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		6E4B71412175813F00464C2D /* UserNotificationsUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserNotificationsUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4B71442175813F00464C2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E4B71452175813F00464C2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		6E4B71642175814000464C2D /* UserNotificationsUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserNotificationsUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4B71682175814000464C2D /* UserNotificationsUIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserNotificationsUIDemoUITests.m; sourceTree = "<group>"; };
 		6E4B716A2175814000464C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4B7176217588B400464C2D /* UserNotificationsUIDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UserNotificationsUIDemo.entitlements; sourceTree = "<group>"; };
+		6E4B717721758C5700464C2D /* UserNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserNotifications.h; sourceTree = "<group>"; };
+		6E4B717821758C5700464C2D /* UserNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserNotifications.m; sourceTree = "<group>"; };
+		6E4B717A2175BD9A00464C2D /* moive.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moive.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,16 @@
 		6E4B71432175813F00464C2D /* UserNotificationsUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6E4B7176217588B400464C2D /* UserNotificationsUIDemo.entitlements */,
 				6E4B71442175813F00464C2D /* AppDelegate.h */,
 				6E4B71452175813F00464C2D /* AppDelegate.m */,
 				6E4B71472175813F00464C2D /* ViewController.h */,
 				6E4B71482175813F00464C2D /* ViewController.m */,
+				6E4B717721758C5700464C2D /* UserNotifications.h */,
+				6E4B717821758C5700464C2D /* UserNotifications.m */,
+				6E05BE192175E28E00D4713A /* 1.jpeg */,
+				6E4B717A2175BD9A00464C2D /* moive.mp4 */,
+				6E05BE0D2175BE1300D4713A /* voicetiaozhuan.mp3 */,
 				6E4B714A2175814000464C2D /* Main.storyboard */,
 				6E4B714D2175814000464C2D /* Assets.xcassets */,
 				6E4B714F2175814000464C2D /* LaunchScreen.storyboard */,
@@ -200,6 +216,11 @@
 					6E4B71402175813F00464C2D = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6E4B71582175814000464C2D = {
 						CreatedOnToolsVersion = 9.1;
@@ -238,6 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4B717B2175BD9A00464C2D /* moive.mp4 in Resources */,
+				6E05BE1A2175E28E00D4713A /* 1.jpeg in Resources */,
+				6E05BE0E2175BE1300D4713A /* voicetiaozhuan.mp3 in Resources */,
 				6E4B71512175814000464C2D /* LaunchScreen.storyboard in Resources */,
 				6E4B714E2175814000464C2D /* Assets.xcassets in Resources */,
 				6E4B714C2175814000464C2D /* Main.storyboard in Resources */,
@@ -268,6 +292,7 @@
 				6E4B71492175813F00464C2D /* ViewController.m in Sources */,
 				6E4B71542175814000464C2D /* main.m in Sources */,
 				6E4B71462175813F00464C2D /* AppDelegate.m in Sources */,
+				6E4B717921758C5700464C2D /* UserNotifications.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +455,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UserNotificationsUIDemo/UserNotificationsUIDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BAVP2W92Z;
 				INFOPLIST_FILE = UserNotificationsUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.UserNotificationsUIDemo;
@@ -443,7 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UserNotificationsUIDemo/UserNotificationsUIDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BAVP2W92Z;
 				INFOPLIST_FILE = UserNotificationsUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.UserNotificationsUIDemo;
